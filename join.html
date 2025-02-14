@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 Chamber Project</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta property="og:title" content="Brazilian Chamber" />
+    <meta property="og:type" content="chamber.site" />
+    <meta property="og:url" content="https://cacb.org.br/brazilianchamberofcommerce/" />
+    <link rel="stylesheet" href="styles/base.css">
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+        </nav>
+    </header>
+
+    <main>
+
+          <div class="divbox2">
+            <h1>Join Us Form</h1>
+            <form method="get" action="thankyou.html">
+                <label>First name:<input type="text" id="" name="" required></label>
+                <label>Last name:<input type="text" id="" name="" required></label>
+                <label>Email:<input type="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" id="" name="" required></label>
+                <label>Phone number:<input type="telephone" id="" name="" required></label>
+                <label>Business name:<input type="text" id="" name="" required></label>
+                <label>Membership level:</label>
+                    <label for=""><input type="checkbox" id="" name="" value="NP">NP Membership</label>
+                    <label for=""><input type="checkbox" id="" name="" value="Bronze">Bronze Membership</label>
+                    <label for=""><input type="checkbox" id="" name="" value="Silver">Silver Membership</label>
+                    <label for=""><input type="checkbox" id="" name="" value="Gold">Gold Membership</label>
+                <label>Business description:<textarea id="" name="" rows="4" cols="30"></textarea></label>
+                <input type="submit" value="Submit">
+            </form>   
+        </div>
+    </main>
+
+    <footer>
+        <p>Author: Caio Nogueira - WDD 230 Project</p>
+        <p>Last modified:</p>
+        <p id="demo"></p>
+        <script>
+            let text = document.lastModified;
+            document.getElementById("demo").innerHTML = text;
+        </script>            
+    </footer>
+</body>
+</html>

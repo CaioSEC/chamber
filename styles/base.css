@@ -80,3 +80,17 @@ section {
     }
     
 }
+
+form {
+    width: 200px;
+}
+
+label{
+    display: block;
+    margin: 5px;
+}
+
+textarea {
+    resize: none;
+    margin-bottom: 50px;
+  }
