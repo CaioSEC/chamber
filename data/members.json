@@ -1,0 +1,30 @@
+{
+    "squadName" : "Super Hero Squad",
+    "homeTown" : "Metro City",
+    "formed" : 2016,
+    "secretBase" : "Super tower",
+    "active" : true,
+    "members" : [
+      {
+        "name" : "Molecule Man",
+        "adress" : 29,
+        "phone" : "Dan Jukes",
+        "website" : "d" ,
+        "level" : "d"
+      },
+      {
+        "name" : "Madame Uppercut",
+        "adress" : 39,
+        "phone" : "Jane Wilson",
+        "website" : "d",
+        "level" : "d"
+      },
+      {
+        "name" : "Eternal Flame",
+        "adress" : 1000000,
+        "phone" : "Unknown",
+        "website" : "d",
+        "level" : "d"
+      }
+    ]
+  }
