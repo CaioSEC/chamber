@@ -17,10 +17,12 @@ nav {
 }
 
 nav ul {
+    padding: 0%;
 	list-style-type: none;
 }
 
 nav a{
+    min-width: 80px;
     display: block;
     color: darkblue;
     text-align: center;
@@ -88,8 +90,8 @@ section {
 .divbox2 {
     vertical-align: top;
     height: max-content;
-    width: 500px;
-    text-align: left;
+    width: 50vw;
+    text-align: center;
     display: inline-block;
     padding: 20px;
     border-radius: 10px;
