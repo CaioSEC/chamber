@@ -1,12 +1,53 @@
 body {
     color: darkblue;
     text-align: center;
-    background-color: rgb(230, 249, 255);
+    background-color: lightblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.mySlides {
+    display: none;
+}
+
+
+nav {
+    background-color: lightblue;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
 nav a{
+    display: block;
+    color: darkblue;
+    text-align: center;
     text-decoration: none;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: lightblue;
+	background-color: darkblue;
+}
+
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+}
+
+.hero-image {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 50%;
 }
 
 .hero-image img{
@@ -14,6 +55,17 @@ nav a{
     height: auto;
     display:flexbox;
     border-radius: 10px;
+    animation: fade 2s;
+}
+
+.hero-text {
+    size: 10vw;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
 }
 
 
@@ -27,8 +79,9 @@ section {
     display: inline-block;
     padding: 20px;
     margin: 10px;
-    background-color: white;
+    background-color: aliceblue;
     width: 200px;
+    border-radius: 10px;
 }
 
 
@@ -39,11 +92,8 @@ section {
     text-align: left;
     display: inline-block;
     padding: 20px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color:aliceblue;
     margin: 1%;
 }
 
@@ -53,11 +103,8 @@ section {
     width: 400px;
     display: inline-block;
     padding: 20px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: aliceblue;
     margin: 1%;
 }
 
@@ -95,10 +142,10 @@ label{
 textarea {
     resize: none;
     margin-bottom: 50px;
-  }
-
+}
 
 .grid img {
     width: 200px;
     height: 150px;
+    animation: fade 2s;
 }
